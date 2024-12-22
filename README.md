@@ -25,8 +25,7 @@ See the [design decision document](documentation/DesignDecisions.md).
 
 This project was made possible by borrowing from great designs, including:
 
-- ABC's wearable widget, https://github.com/example/project
-- XYZ's battery management, https://github.com/example/otherproject
+- Jousis's ESPresso Scale, https://hackaday.io/project/164256-espresso-scale
 
 ## Author
 
