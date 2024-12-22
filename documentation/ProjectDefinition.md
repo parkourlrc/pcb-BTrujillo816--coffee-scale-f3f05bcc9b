@@ -1,22 +1,34 @@
-# Client
+# Project Definition
+
+## Client
+
 - Roles
   - Consumer
+    - Home coffee enthusiasts who prefer pour-over style coffee brewing methods
 - Budget
-  - $ 500
+  - $ 1000
 
-# Communication
+## Communication
 - Repository: GitHub
 - Logbook: GitHub
 
-# Objectives
-- Descriptions
-  - Rectangular
-  - Displays numbers
-  - Physical interaction
-  - Makes sounds
+## Objectives
+### Digital Coffee Scale
 
-# Scenario
-## User Interaction Stories
+- Computes and displays weight of object placed on scale
+- Computes and displays flow weight of water during the brewing process
+- Rectangular form factor
+  - Stable when objects are placed on the scale
+  - Must be large enough to support a standard glass carafe
+
+- Displays numbers through a digital display
+- Physical interaction through buttons
+  - Makes sounds whenever a button is pressed
+
+- Rechargeable battery
+
+## Scenario
+### User Interaction Stories
 
 - Unboxing
   - Foam to protect pressure sensor
@@ -55,7 +67,7 @@
       - Starts when weight is above a certain amount
     - Automatically stores brew parameters
 
-## User Interface
+### User Interface
 
 - Display
   - LCD
@@ -66,7 +78,7 @@
 - Indicators
   - Beeps for pushbuttons
 
-# User Acceptance
+## User Acceptance
 - Given-When-Then criteria
   - Given: Weigh coffee
   - When: When coffee is on the scale
@@ -81,47 +93,41 @@
 - On/off switch works as intended
 - Modes are easily switched between
 
-# Parameters
-## Technical
+## Parameters
+### Technical
 - Dimensions
-  - 115 mm x 100.8 mm x 16 mm
+  - Greater than 200mm x 200mm
+    - Supports a standard Hario V60 Glass Coffee Server (W180 x D125 x H133mm)
 - Weight
-  - 192 g
+  - Below 200 g
 - Protection
   - Waterproof
 
-## Functions
+### Functions
 - Uses pressure sensor to weigh coffee
 - Uses gyroscope to detect level surface and calibrate sensor
 - Displays brewing parameters from memory to LCD display
 - Emits a sound whenever a button is pressed
 - Starts and stops timer based on input or mode
 
-## Integration
+### Integration
 - Protocols
   - SPI
   - I2C
   - Serial
 
-## Operational
+### Operational
 - Don't put underwater
 - Long-battery life
 - Carrying case to protect pressure sensor
 
-## Regulatory
-- None
-
-## Life Cycle
+### Life Cycle
 - Manufacturing
   - Makerspace
 - Programming
   - C or C++
-- Service
-  - No
-- Associated Services
-  - Also no
 
-## Environment
+### Environment
 - Temperatures
   - Room temp optimal operation
 - Hazards
@@ -133,9 +139,9 @@
 - Power
   - Rechargeable battery
 
-## Starting Point
+### Starting Point
 - Existing IP
-  - Timemore Coffee Scale Basic Mini
+  - [Timemore Coffee Scale Basic Mini](https://www.timemore.com/collections/coffee-scale/products/timemore-coffee-scale-with-timer-basic-mini-black)
 
 ## Key Concerns
 - Most Important
@@ -163,6 +169,6 @@
   - The rate of water flow in grams per second
 - Grounds
   - The state of coffee beans after grinding 
-- Pour Over
+- Pour-Over
   - A method of coffee brewing that involves pouring water from a kettle over coffee grounds as its primary extraction method
 
