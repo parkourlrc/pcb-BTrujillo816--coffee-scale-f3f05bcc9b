@@ -66,12 +66,6 @@ Power supply plan
 
 ### Parameters
 
-eInk Display (UC8151d)
-
-- Clock rate for SPI interface
-- Display resolution
-- Frame rate
-
 HX711
 
 - Sampling rate
