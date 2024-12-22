@@ -1,7 +1,7 @@
 # Digital Coffee Scale User Manual
 
 ## Product Purpose
-- The Coffee Scale Project is designed to replicate a professional coffee scale, providing precise measurements for brewing coffee. The scale automatically weighs objects, shows brewing parameters, and interacts with the user through physical controls and oled display. The product is powered by a LiPo battery and built around the ESP32 microcontroller for versatile connectivity and functionality.
+- The Coffee Scale Project is designed to replicate a professional coffee scale, providing precise measurements for brewing coffee. The scale automatically weighs objects, shows brewing parameters, and interacts with the user through physical controls and an OLED display. The product is powered by a LiPo battery and built around the ESP32 microcontroller for versatile connectivity and functionality.
 
 ## Button Functions
 ### Note: All button presses will emit a beep as feedback.
@@ -14,8 +14,8 @@
     - Press once to start the timer.
     - Press again to stop the timer.
 - Display:
-    - When running, the timer shows elapsed time in seconds (e.g., "Timer: 10 s").
-    - When stopped, the timer display freezes.
+    - When running, the timer shows the elapsed time in minutes and seconds (e.g., "Timer: 00:00").
+    - When stopped, the timer display resets.
 - Use Case: Use this to track brewing time or other timed processes.
 
 3. Wake-Up Button
@@ -25,12 +25,12 @@
 ## Operation
 ### Initial Setup
 1. Power
-- Make sure battery is charged. Connect to USB-C if needs charging. 
+- Make sure battery is charged. Connect to USB-C if charging is needed. 
 - Press wake up button to turn product on.
 
 2. Calibration
 - Ensure the scale is on a flat surface.
-- Press the Tare Button to reset the weight to zero.
+- Press the Tare Button to reset the weight display to zero.
 
 ### Key Features
 1. Weight Scale
@@ -44,7 +44,7 @@
     - Updates if the flow rate exceeds 0.5 g/s.
 
 3. Timer
-    - Displayed as: "Timer: XX s"
+    - Displayed as: "Timer: 00:00"
         - Tracks elapsed time in seconds for precise brewing or timed processes.
         - Updates continuously when active and freezes when stopped.
         - Ideal for timing coffee extraction or other brewing steps.
